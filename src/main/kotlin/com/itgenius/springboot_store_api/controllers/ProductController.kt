@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile
 import java.math.BigDecimal
 import java.time.LocalDateTime
 
-@PreAuthorize("hasAuthority('ADMIN') or hasAuthority('ADMIN') or hasAuthority('MANAGER')")
+@PreAuthorize("hasAuthority('USER') or hasAuthority('ADMIN') or hasAuthority('MANAGER')")
 @Tag(name = "Products", description = "APIs for managing products")
 @RestController
 // @CrossOrigin(origins = ["http://localhost:3000, http://localhost:8080, http://localhost:4200"])
