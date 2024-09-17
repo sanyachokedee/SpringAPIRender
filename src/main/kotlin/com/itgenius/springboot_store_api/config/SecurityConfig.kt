@@ -72,7 +72,7 @@ class SecurityConfig(
         config.addAllowedOrigin("http://localhost:5173")
         config.addAllowedOrigin("http://localhost:5000")
         config.addAllowedOrigin("http://localhost:5001")
-        config.addAllowedOrigin("https://springapirender-npjk.onrender.com")
+        config.addAllowedOrigin("https://springapirender-2j3b.onrender.com/")
         config.addAllowedOriginPattern("https://*.itgenius.co.th")
         config.addAllowedOriginPattern("https://*.azurewebsites.net")
         config.addAllowedOriginPattern("https://*.netlify.app")
