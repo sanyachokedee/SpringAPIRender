@@ -15,7 +15,6 @@ RUN mvn clean package -DskipTests
 ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-crhudttumphs73c9mbug-a.singapore-postgres.render.com/springstoredb_q80h
 ENV SPRING_DATASOURCE_USERNAME=samitx
 ENV SPRING_DATASOURCE_PASSWORD=SXydZSuWK9mbgL8gueslFV3wAf8pUEvj
-ENV SPRING_DATASOURCE_HOST = https://springapirender-2j3b.onrender.com
 # กำหนด port ที่เราจะใช้
 EXPOSE 8080
 
